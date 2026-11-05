@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment files & secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional test/seed outputs or scratch dumps
+dump/
+coverage/
+
+# Editor & OS files
+.vscode/
+.idea/
+*.sw?
+.DS_Store
+Thumbs.db
