@@ -9,7 +9,7 @@ const aiRoutes = require("./routes/ai");
 const app = express();
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://enquiryclient.vercel.app/'
+  'https://enquiryclient.vercel.app'
 ]
 // Middleware
 app.use(cors({
